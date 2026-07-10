@@ -1,0 +1,32 @@
+704:  masterEquipmentId?: string;
+988:  const [masterEquipment, setMasterEquipment] = useState<MasterEquipment[]>(
+1004:        JSON.stringify(masterEquipment),
+1007:  }, [masterEquipment]);
+1740:                    equipment={masterEquipment}
+1752:                    equipment={masterEquipment}
+1763:                    masterEquipment={masterEquipment}
+1784:                    masterEquipment={masterEquipment}
+2475:  masterEquipment,
+2484:  masterEquipment: MasterEquipment[];
+2574:      const updatedEquipment = masterEquipment.map((eq) => {
+2630:    const isUsedInMaster = masterEquipment.some(
+2872:        const updatedEquipment = masterEquipment.map((eq) =>
+2923:    const isUsedInMaster = masterEquipment.some(
+3009:        const updatedEquipment = masterEquipment.map((eq) =>
+3054:    const isUsedInMaster = masterEquipment.some(
+3839:  masterEquipment,
+3844:  masterEquipment: MasterEquipment[];
+3851:  const filtered = masterEquipment.filter(
+7265:  masterEquipment,
+7280:  masterEquipment: MasterEquipment[];
+7465:      const master = masterEquipment.find(
+7507:  }, [activeLineUnit, masterEquipment, activeLineUnitId, activeScenarioId]);
+7638:          const master = masterEquipment.find(
+7779:    masterEquipment,
+7854:                        const master = masterEquipment.find(
+8151:    const master = masterEquipment.find(
+9385:                                  const master = masterEquipment.find(
+10134:                                      const master = masterEquipment.find(
+10688:                                          {masterEquipment.some(
+11308:                          const master = masterEquipment.find((m) => m.id === r.equipmentId || m.name === r.name);
+11884:              masterEquipment={masterEquipment}

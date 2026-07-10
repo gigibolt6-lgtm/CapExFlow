@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #1a73e8;
+  --color-brand-secondary: #5f6368;
+  
+  --color-bg-main: white;
+  --color-text-main: #202124;
+  --color-border-main: #dadce0;
+}
+
+@layer base {
+  .dark {
+    --color-bg-main: #202124;
+    --color-text-main: #e8eaed;
+    --color-border-main: #3c4043;
+  }
+
+  body {
+    @apply bg-[var(--color-bg-main)] text-[var(--color-text-main)] transition-colors duration-200;
+  }
+}

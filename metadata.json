@@ -1,0 +1,6 @@
+{
+  "name": "設備導入稟議作成アプリ",
+  "description": "設備導入の稟議書作成を定型化し、投資回収、損益分岐点、NPV、IRRなどを自動計算してPDF出力する業務支援ツール。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
